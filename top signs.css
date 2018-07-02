@@ -375,4 +375,8 @@ a{
         iframe{
             width:100%;
         }
+        .btn{
+            color:white;
+        }
+        
     }
