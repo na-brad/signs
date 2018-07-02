@@ -324,6 +324,10 @@ a{
         iframe{
             width:90%;
         }
+        .btn{
+            color:white;
+            border-color: gold;
+        }
     }
     @media screen and (max-width: 425px){
         h1{
