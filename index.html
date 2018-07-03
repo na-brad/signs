@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
+        
     <link rel="stylesheet" type="text/css" href="top signs.css" />
     <link href="https://fonts.googleapis.com/css?family=Holtwood+One+SC|Lato|Roboto" rel="stylesheet">
 </head>
@@ -140,6 +141,38 @@
             </div>
         </div>
         <div style="border-bottom: 3px solid;border-color:rgb(133, 131, 131)">
+                <div class="sections" id="contact">
+                    <span id="galleryJump"></span>
+                    <h2>GALLERY</h2>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="https://images.unsplash.com/photo-1521680298772-9dd458fc08c1?ixlib=rb-0.3.5&s=dff0b6ec75cfb8bf02ac7393f8e42cc8&auto=format&fit=crop&w=1500&q=80" alt="First slide" id="pic1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="https://images.unsplash.com/photo-1520453803296-c39eabe2dab4?ixlib=rb-0.3.5&s=39f05bfadde7734198142a9c74717de0&auto=format&fit=crop&w=1312&q=80" alt="Second slide" id="pic2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="https://images.unsplash.com/photo-1497290368232-b6323e8ee5ef?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f4ba39bf2bb04748a492da4bf5149912&auto=format&fit=crop&w=1500&q=80" alt="Third slide" id="pic3">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                </div>
+            </div>
+        <div style="border-bottom: 3px solid;border-color:rgb(133, 131, 131)">
             <div class="sections" id="contact">
                 <span id="contactJump"></span>
                 <h2>CONTACT</h2>
@@ -209,6 +242,9 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <script>
         $('a').click(function () {
             $('html, body').animate({
